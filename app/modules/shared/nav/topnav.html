@@ -1,0 +1,16 @@
+<div layout="column" ng-controller="NavController as navCtrl">
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <md-button ng-hide="$mdMedia('gt-md')" -md -gt-md ng-click="navCtrl.toggleLeft()" class="md-icon-button" aria-label="Menu">
+                    <md-icon md-font-set="material-icons">menu</md-icon>
+                </md-button>
+                <h3><span>App</span></h3>
+                <p>
+                    <a ui-sref="home">State 1</a>
+                    <a ui-sref="about">State 2</a>
+                </p>
+            </div>
+        </md-toolbar>
+</div>
+
+
